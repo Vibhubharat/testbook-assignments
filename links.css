@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:lightgray;
+}
+.header{
+ top: 0;
+ position: sticky;
+ border-bottom: 0.1px solid lightgray;
+ width: 100%;
+ z-index: 999;
+ justify-content: space-evenly;
+ padding: 10px;
+ display: flex;
+ background-color: white;
+}
+.header-left{
+display: flex;
+float: left;
+
+
+}
+.header-right{
+    display: flex;
+}
+.header_search{
+    background-color: lightblue;
+    padding: 10;
+    height: 30px;
+    width: 230px;
+    display: flex;
+    padding: auto;
+    margin-left: 10px;
+
+  
+}
+.header_search>img{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.header_search>h3{
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.right{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-top: 2px;
+}
+h3{
+    font-size: 10px;
+    color: grey;
+}
+.right-side{
+    display: flex;
+    float: right;
+     
+}
+.right-side>h3{
+margin-top: 10px;
+margin-left:10px;
+}
+
+.middle{
+    border: solid 1px white;
+    width: 220px;
+height: 730px;
+margin-left:-900px;
+margin-top: 10px;
+float: left;
+border-radius: 7px;
+background-color: white;
+
+
+}
+.middle-left1>img{
+   margin-left: 65px;
+   margin-top: 20px;
+}
+.middle-left1>h2{
+    font-size: 16px;
+    text-align: center;
+}
+.middle-left1>h3{
+    
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.center{
+    margin-top: -330px;
+}
+
+
+.middle-top{
+    display: flex;
+    border: solid 1px white;
+    background-color: white;
+    margin-top: -400px;
+    height: 100px;
+    width: 540px;
+    border-radius: 15px;
+    margin-left: -80px;
+}
+.middle-top>input{
+    height: 45px; width: 450px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.middle-top>img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.middle-center1{
+    border: solid 1px white;
+    width: 540px;
+    height: 470px;
+    background-color: white;
+    margin-left: -80px;
+  
+  }
+  .middle1{
+    margin-top: -90px;
+    margin-left: 110px;
+  }
+  
+  #two{
+    margin-top: 50px;
+    width: 540px;
+    height: 300px;
+  }
+  .third{
+    display: flex;
+    margin-left: 1px;
+  }
+  .four-likes{
+display: flex;
+
+margin-left: 65px;
+height: 30px;
+width: 30px;
+margin-top: 10px;
+
+  }
+  .four-likes>h3{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  .middle-center2{
+    border: solid 1px white;
+    width: 540px;
+    height: 520px;
+    background-color: white;
+    margin-left: -80px;
+    margin-top: 15px;
+  }
+  .middle2{
+    margin-left: 90px;
+    margin-top: -70px;
+  }
+  .down>video{
+    margin-top: 20px;
+    object-fit: cover;
+   
+  }
+  
+.para{
+margin-top: 30px;
+}
+
+.right1{
+    border: solid 1px white;
+    width: 250px;
+height: 200px;
+border-radius: 7px;
+background-color: white;
+margin-left: 750px;
+margin-top: -1110px;
+}
+.right1>ul{
+    margin-left: 20px;
+}
+.right2{
+    border: solid 1px white;
+    width: 250px;
+height: 150px;
+border-radius: 7px;
+background-color: white;
+margin-left: 750px;
+margin-top: 20px;
+}
+.right2>ul{
+    margin-left: 20px;
+}
+.right3{
+    border: solid 1px white;
+    width: 250px;
+height: 360px;
+border-radius: 7px;
+background-color: white;
+margin-left: 750px;
+margin-top: 20px;
+}
+.borderU{
+    border: solid 1px black;
+    width: 140px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+.rightU{
+
+    margin-left: 45px;
+    margin-top: -35px;
+}
+.image2{
+    margin-left: 5px;
+}
+.borderL{
+    border: solid 1px black;
+    width: 140px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: -8px;
+}
+.rightL{
+
+    margin-left: 45px;
+    margin-top: -35px;
+}
+.image3{
+    margin-left: -43px;
+}
+.borderM{
+    border: solid 1px black;
+    width: 140px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: -5px;
+}
+.rightM{
+
+    margin-left: 0px;
+    margin-top: -35px;
+}
+.right3>h3{
+    color: black;
+
+}
